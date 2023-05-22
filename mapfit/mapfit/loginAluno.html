@@ -96,28 +96,6 @@
         margin-bottom: 40px;
     }
 
-    .gender-group {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 0.62rem;
-        padding: 0 0 .5rem;
-    }
-
-    .gender-input {
-        display: flex;
-        align-items: center;
-    }
-
-    .gender-input input {
-        margin-right: 0.35rem;
-    }
-
-    .gender-input label {
-        font-size: 0.81rem;
-        font-weight: 600;
-        color: #323232;
-    }
-
     input:focus {
         border-color: #20C997;
     }
@@ -129,15 +107,6 @@
         border-radius: 20px;
         height: 40px;
         cursor: pointer;
-    }
-
-    #agreement {
-        margin-right: 5px;
-    }
-
-    #agreement, #agreement-label {
-        display: inline-block;
-        width: auto;
     }
 
     /* validações */
@@ -195,16 +164,11 @@
     </main>
 
     <div id="main-container">
-        <h1>Personal - Cadastro</h1>
+        <h1>Aluno - Login</h1>
         <form id="register-form">
             <div class="full-box">
                 <label for="email">E-mail:</label>
                 <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
-            </div>
-            
-            <div class="half-box spacing">
-                <label for="name">Nome:</label>
-                <input type="text" name="name" id="name" placeholder="Digite seu nome completo">
             </div>
 
             <div class="half-box spacing">
@@ -212,59 +176,8 @@
                 <input type="password" name="password" id="password" placeholder="Digite a sua senha">
             </div>
 
-            <div class="half-box">
-                <label for="passconfirmation"> Confirmação de senha:</label>
-                <input type="password" name="date" id="date" placeholder="Confirme sua senha">
-            </div>
-
             <div class="full-box">
-                <label for="data">Data de Nascimento:</label>
-                <input type="date" name="email" id="email" placeholder="Digite seu e-mail">
-            </div>
-
-            <div class="full-box">
-                <label for="number">Celular:</label>
-                <input id="number" type="tel" name="number" placeholder="(xx) xxxxx-xxxx" required>
-                </div>
-
-                <div class="full-box">
-                    <label for="crm">CRM:</label>
-                    <input type="text" id="crm" name="crm" required placeholder="Digite seu CRM">
-                  </div>
-
-                <div class="gender-inputs">
-                    <div class="gender-title">
-                        <h6>Gênero:</h6>
-                    </div>
-
-                    <div class="gender-group">
-                        <div class="gender-input">
-                            <input type="radio" id="female" name="gender">
-                            <label for="female">Feminino</label>
-                        </div>
-
-                        <div class="gender-input">
-                            <input type="radio" id="male" name="gender">
-                            <label for="male">Maculino</label>
-                        </div>
-
-                        <div class="gender-input">
-                            <input type="radio" id="others" name="gender">
-                            <label for="other">Outros</label>
-                        </div>
-
-                        <div class="gender-input">
-                            <input type="radio" id="none" name="gender">
-                            <label for="none">Prefiro não dizer</label>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="full-box">
-                <input type="checkbox" name="agreement" id="agreement"> <label for="agreement" id="agreement-label">Eu li e aceito os <a href="a">termos de uso</a></label>
-            </div>
-            <div class="full-box">
-                <input type="submit" id="btn-submit" value="Registrar">
+                <input type="submit" id="btn-submit" value="Entrar">
               </div>
         </form>
     </div>
